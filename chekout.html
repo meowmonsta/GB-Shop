@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My new shop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="site-center">
+        <div class="head-left">
+            <div class="logo"><a href="#"><img src="img/brand.png" alt="logo"></a></div>
+            <div>
+                <form class="searchform">
+                    <button class="button-browse">Browse<i class="fa fa-caret-down button-browse-arrow"
+                            aria-hidden="true"></i></button>
+                    <input class="inpform" type="text" placeholder="Search for Item...">
+                    <button class="button-search"><i class="fa fa-search search-ico-style"
+                            aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="head-right">
+            <div class="buscket"><img src="img/buscket.svg" alt="Корзина"></div>
+            <div class="login"><a class="pink-login" href="#">My account <i class="fa fa-caret-down"
+                        aria-hidden="true"></i></a></div>
+        </div>
+    </header>
+    <nav class="site-center">
+        <div class="site-menu container" role="navigation">
+            <div><a href="#" class="nav__link nav__link__category">Home</a></div>
+            <div class="site-menu__link">
+                <a href="#" class="nav__link nav__link__category">Man</a>
+            </div>
+            <div class="site-menu__link"><a href="#" class="nav__link nav__link__category">Women</a>
+            </div>
+            <div class="site-menu__link"><a href="#" class="nav__link nav__link__category">Kids</a>
+            </div>
+            <div class="site-menu__link site-menu__link_last"><a href="#"
+                    class="nav__link nav__link__category">Accoseriese</a>
+            </div>
+            <div class="site-menu__link site-menu__link_last"><a href="#"
+                    class="nav__link nav__link__category">Featured</a>
+            </div>
+            <div class="site-menu__link site-menu__link_last"><a href="#" class="nav__link nav__link__category">Hot
+                    Deals</a></div>
+        </div>
+    </nav>
+    <!--Хлебные крошки-->
+    <div class="breadcrumbs__container site-center">
+        <div>
+            <h1 class="breadcrumbs__h1">New Arrivals</h1>
+        </div>
+        <div class="breadcrumbs__style">
+            <a href="/index.html" class="breadcrumbs__style">Home</a> / <a href="#" class="breadcrumbs__style">Men</a> /
+            <a href="#" class="breadcrumbs__active">New Arrivals</a>
+        </div>
+    </div>
+    <!--Конец Хлебные крошки-->
+<div class="check__container site-center">
+    <ol>
+        <li class="checkout">
+            <details class="checkout" open>
+            <summary>01. Shipping adress</summary>
+            <div class="checkout__formContainer">
+                <div class="checkout__item">
+                    <form>
+                    <h4 class="check_h4">Check as a guest or register</h4>
+                    <p class="checkout_p">Register with us for future convenience</p> 
+                    <p><input type="radio" id="gst" name="guest" value="guest" checked><label class="reg__label">Checkout as guest</label></p>
+                    <p><input type="radio" id="reg" name="register" value="register"><label class="reg__label">Register</label></p>
+                    <h4 class="check_h4 reg__margin">Register and save time!</h4>
+                    <p class="checkout_p">Register with us for future convenience</p>
+                    <p class="checkout_p fast_easy">&#187; Fast and easy checkout</p>
+                    <p class="checkout_p fast_easybtm">&#187; Easy access to your order history and status</p>
+                    <button class="contbtn" type="submit">Continue</button>
+                    </form>
+                </div>
+                <div class="checkout__item">
+                    <form>
+                    <h4 class="check_h4">Already registed?</h4>
+                <p class="checkout_p">Please log in below</p>
+                    <label class="reg__label">EMAIL ADDRESS <em class="small_redtext">*</em></label><br>
+                    <input class="check_input mail-input" id="email" pattern="\S+@[a-z]+.[a-z]+"><br>
+                    <label class="reg__label">PASSWORD <em class="small_redtext">*</em></label><br>
+                    <input class="check_input" id="pswrd" pattern="\S+@[a-z]+.[a-z]+">
+                    <p class="small_redtext rec-fields__margin"><em>*</em> Required Fileds</p>
+                    <button class="contbtn" type="submit">Log in</button> <span class="frgt">Forgot Password?</span>
+                    </form>
+                </div>
+            </div>
+        </details>
+        </li>
+        <li class="checkout">
+            <details class="checkout">
+        <summary>02. BILLING INFORMATION</summary>
+            </details>
+        </li>
+    <li class="checkout">
+        <details>
+        <summary>03. SHIPPING INFORMATION</summary>
+    </details>
+</li>
+ <li class="checkout">
+     <details>
+        <summary>04. SHIPPING METHOD</summary>
+    </details>
+</li>
+<li class="checkout">
+    <details>
+        <summary>05. PAYMENT METHOD</summary>
+    </details>
+</li>
+<li class="checkout"><details>
+        <summary>06. ORDER REVIEW</summary>
+    </details></li>
+    </ol>
+</div>
+    <!--Отзывы и форма подписки-->
+    <div class="testimonials site-center">
+        <div class="testimonials-block">
+            <div class="testiomonial-item">
+                <div class="block-userpic">
+                    <img src="img/user.png" alt="item">
+                </div>
+                <div class="text-testimonial">
+                    <blockquote>
+                        <p class="bl-text">Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                            condimentum a. Aliquam condimentum mattis neque sed pretium</p>
+                        <cite>Bin Burhan<br>
+                            <span class="region">Dhaka, Bd</span></cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="subscribe">
+            <h3 class="subscribe__hstyle">Subscribe</h3>
+            <span>FOR OUR NEWLETTER AND PROMOTION</span>
+            <div class="subscribe__form"><input class="subscribe__formStyle" type="email" placeholder="Enter Your Email"
+                    aria-label="email">
+                <button class="subscribe__formButton" type="submit">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <!--конец Отзывы и форма подписки-->
+    <footer>
+        <section class="footer-menu site-center">
+            <div class="footer-menu-left">
+                <a href="#"><img src="img/brand.png" alt="logo"></a>
+                <p class="footer-text">Objectively transition extensive data rather than cross functional solutions.
+                    Monotonectally syndicate multidisciplinary
+                    materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and
+                    cross-unit partnerships.</p>
+                <p class="footer-text">Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+            </div>
+            <div class="footer-menu-right">
+                <div class="menu-right-item item-1">
+                    <h3>COMPANY</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="menu-right-item item-2">
+                    <h3>INFORMATION</h3>
+                    <ul>
+                        <li><a href="#">Tearms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">How to Buy</a></li>
+                        <li><a href="#">How to Sell</a></li>
+                        <li><a href="#">Promotion</a></li>
+                    </ul>
+                </div>
+                <div class="menu-right-item">
+                    <h3>SHOP CATEGORY</h3>
+                    <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Child</a></li>
+                        <li><a href="#">Apparel</a></li>
+                        <li><a href="#">Brows All</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <div class="copy site-center">
+        <div class="copy-text">&copy; 2017 Brand All Rights Reserved.</div>
+        <div class="social-footer">
+            <ul>
+                <li><a href="#"><img src="img/facebook.png" alt="social"></a></li>
+                <li><a href="#"><img src="img/twitter.png" alt="social"></a></li>
+                <li><a href="#"><img src="img/linked-in.png" alt="social"></a></li>
+                <li><a href="#"><img src="img/pinterest.png" alt="social"></a></li>
+                <li><a href="#"><img src="img/googleplus.png" alt="social"></a></li>
+            </ul>
+        </div>
+    </div>
+    </body>
+    </html>
